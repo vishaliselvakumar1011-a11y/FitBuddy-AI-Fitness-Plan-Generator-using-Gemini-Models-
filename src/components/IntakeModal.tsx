@@ -53,12 +53,14 @@ export const IntakeModal: React.FC<IntakeModalProps> = ({
   };
 
   const goalOptions: { value: GoalType; label: string; desc: string; icon: string }[] = [
-    { value: 'fat_loss', label: 'Fat Loss & Shred', desc: 'Metabolic conditioning & caloric burn', icon: '🔥' },
-    { value: 'muscle_gain', label: 'Muscle Hypertrophy', desc: 'Lean mass, size & progressive overload', icon: '💪' },
+    { value: 'general_wellness', label: 'General Wellness', desc: 'Holistic health, daily vitality & stress resilience', icon: '🌿' },
+    { value: 'improving_fitness', label: 'Improving Fitness', desc: 'Cardiovascular conditioning, stamina & energy', icon: '⚡' },
+    { value: 'muscle_development', label: 'Muscle Development', desc: 'Targeted muscle hypertrophy & lean mass shaping', icon: '💪' },
+    { value: 'healthy_weight_management', label: 'Healthy Weight Management', desc: 'Sustainable body composition & metabolic health', icon: '⚖️' },
+    { value: 'fat_loss', label: 'Fat Loss & Shred', desc: 'Caloric deficit, metabolic burn & definition', icon: '🔥' },
     { value: 'strength', label: 'Raw Strength & Power', desc: 'Compound movements & neuromuscular force', icon: '🏋️' },
     { value: 'endurance', label: 'Endurance & Cardio', desc: 'Aerobic threshold & stamina building', icon: '🏃' },
     { value: 'mobility_flexibility', label: 'Mobility & Joint Health', desc: 'Posture, active range & fascial release', icon: '🧘' },
-    { value: 'general_fitness', label: 'General Health & Vitality', desc: 'Sustainable functional fitness & longevity', icon: '⚡' },
   ];
 
   const experienceOptions: { value: ExperienceLevel; label: string; sub: string }[] = [

@@ -1,4 +1,8 @@
 export type GoalType = 
+  | 'general_wellness'
+  | 'improving_fitness'
+  | 'muscle_development'
+  | 'healthy_weight_management'
   | 'fat_loss' 
   | 'muscle_gain' 
   | 'strength' 
